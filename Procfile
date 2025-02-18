@@ -1,2 +1,2 @@
-web: cd NetCamjor/bin/publish && ./NetCamjor --urls http://*:5000
+web: cd NetCamjor/bin/Debug/net9.0 && ./NetCamjor --urls http://*:5000
 
