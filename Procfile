@@ -1,2 +1,2 @@
-web: dotnet bin/Release/net9.0/publish/NetCamjor.dll
+web: cd NetCamjor/bin/publish && ./NetCamjor --urls http://*:5000
 
