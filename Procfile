@@ -1,1 +1,1 @@
-web: cd NetCamjor/bin/publish/; ./NetCamjor --urls http://*:$PORT
+web:dotnet NetCamjor.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCamjor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa4e8f6a66ddc2879ce611397d26075d8e33c51e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb990768f61ff9e9c5d80221c68ce6986bc66581")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCamjor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCamjor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
