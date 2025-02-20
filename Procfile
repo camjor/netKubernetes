@@ -1,2 +1,2 @@
-web: dotnet ./publish/NetCamjor.dll --urls http://*:5000
+web: dotnet ./publish/NetCamjor.dll --urls http://*:$PORT
 
