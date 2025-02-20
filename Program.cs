@@ -16,7 +16,10 @@ using NetCamjor.Models;
 using NetCamjor.Profiles;
 using NetCamjor.Token;
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls($"http://*:{port}");
+
 string secretKey = $"{Guid.NewGuid()}{Guid.NewGuid()}";
 //coneccion a SQLserver
 /*
