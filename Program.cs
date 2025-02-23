@@ -22,19 +22,19 @@ builder.WebHost.UseUrls($"http://*:{port}");
 
 string secretKey = $"{Guid.NewGuid()}{Guid.NewGuid()}";
 //coneccion a SQLserver
-/*
 builder.Services.AddDbContext<AppDbContext>(opt => {
     opt.LogTo(Console.WriteLine, new [] {
         DbLoggerCategory.Database.Command.Name}, 
         LogLevel.Information).EnableSensitiveDataLogging();
 
     opt.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection")!);
-});*/
+});
+
 //coneccion a MySql
-var connectionMySqlString = builder.Configuration.GetConnectionString("MySqlAws"); 
+/*var connectionMySqlString = builder.Configuration.GetConnectionString("MySqlAws"); 
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseMySql(connectionMySqlString, ServerVersion.AutoDetect (connectionMySqlString));
-});
+});*/
 
 
 

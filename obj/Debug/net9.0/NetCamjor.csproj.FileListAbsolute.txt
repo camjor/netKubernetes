@@ -160,3 +160,8 @@ C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\Swashbuckl
 C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\MySqlConnector.dll
 C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\publish\appsettings.Development.json
+C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\publish\appsettings.json
+C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\publish\NetCamjor.deps.json
+C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\publish\NetCamjor.runtimeconfig.json
+C:\Users\fonse\Documents\curso_angular_net\NetCamjor\bin\Debug\net9.0\publish\NetCamjor.staticwebassets.endpoints.json
