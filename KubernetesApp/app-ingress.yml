@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: app.34.59.134.18.nip.io
+  - host: "app.34.59.134.18.nip.io"
     http:
       paths:
       - pathType: Prefix
@@ -14,5 +14,15 @@ spec:
         backend:
           service:
             name: app-service
+            port: 
+              number: 80
+  - host: "frontend.34.59.134.18.nip.io"
+    http:
+      paths:
+      - pathType: Prefix
+        path: /
+        backend:
+          service:
+            name: angular-inmueble-service
             port: 
               number: 80
