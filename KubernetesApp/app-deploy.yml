@@ -27,5 +27,5 @@ spec:
           - containerPort: 5000
         env:
           - name: ConnectionStrings__SQLServerConnection
-            value: Data Source=mssql-service; Initial Catalog= InmuebleDB; User Id=sa ;password=pechoche12J*;TrustServerCertificate=True
+            value: Data Source=mssql-service; Initial Catalog=InmuebleDB; User Id=sa;password=pechoche12J*;TrustServerCertificate=True
 
